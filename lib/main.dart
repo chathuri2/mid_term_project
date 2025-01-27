@@ -12,7 +12,7 @@ class BookstoreApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Ceylon Bookstore',
+      title: 'The Novel Store',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -29,13 +29,13 @@ class BookstoreHomePage extends StatelessWidget {
     final books = [
       {
         "title": "American Ghoul",
-        "author": "Walt Morton",
+        "author": "Michelle Mcgillvargas",
         "price": "LKR 1000.00",
         "image": "assets/American-Ghoul.jpg"
       },
       {
         "title": "Death of the Immortal King",
-        "author": "John Smith",
+        "author": "Sarah McCarthy",
         "price": "LKR 1500.00",
         "image": "assets/Death-of-the-Immortal-King.jpg"
       },
